@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_taimen.mk
+    $(LOCAL_DIR)/scorpion_taimen.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_taimen-userdebug
+    scorpion_taimen-userdebug

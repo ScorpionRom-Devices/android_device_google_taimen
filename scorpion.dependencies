@@ -1,0 +1,37 @@
+[
+ {
+   "repository":  "ScorpionRom-Devices/device_google_wahoo",
+   "target_path": "device/google/wahoo",
+   "branch":      "sr4"
+ },
+ {
+   "repository":  "gibranmather/proprietary_vendor_google",
+   "target_path": "vendor/google",
+   "branch":      "sr4"
+ },
+ {
+   "repository":  "ScorpionRom-Devices/kernel_google_wahoo",
+   "target_path": "kernel/google/xenial",
+   "branch":      "sr4"
+ },
+ {
+   "repository":  "gibranmather/hardware_qcom_msm8998",
+   "target_path": "hardware/qcom/msm8998",
+   "branch":      "sr4"
+ },
+ {
+   "repository":  "gibranmather/keygen",
+   "target_path": "keygen",
+   "branch":      "sr4"
+ },
+ {
+   "repository":  "gibranmather/arm64-gcc",
+   "target_path": "prebuilts/gcc/linux-x86/aarch64/arm64-gcc",
+   "branch":      "sr4"
+ },
+ {
+   "repository":  "abc_gapps",
+   "target_path": "vendor/pixelgapps",
+   "branch":      "sr4"
+ }
+]
