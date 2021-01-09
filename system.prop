@@ -1,0 +1,7 @@
+# Device mask
+ro.build.fingerprint=google/bramble/bramble:11/RQ1A.210105.003/7005429:user/release-keys
+ro.product.brand=google
+ro.product.device=taimen
+ro.product.manufacturer=Google
+ro.product.model=Pixel 2 XL
+ro.product.name=taimen

@@ -26,16 +26,7 @@ $(call inherit-product, device/google/taimen/aosp_taimen.mk)
 PRODUCT_NAME := scorpion_taimen
 PRODUCT_DEVICE := taimen
 PRODUCT_BRAND := google
-PRODUCT_MODEL := Pixel 5a
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="taimen" \
-    PRIVATE_BUILD_DESC="taimen-user 11 RP1A.201005.004.A1 6934943 release-keys"
-
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys"
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys
+PRODUCT_MODEL := Pixel 2 XL
 
 $(call inherit-product-if-exists, vendor/google/taimen/taimen-vendor.mk)
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
